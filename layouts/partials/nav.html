@@ -1,0 +1,102 @@
+<style>
+.dropbtn1 {
+    background-color: #3D566E;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+    background-color: #6A7885;
+}
+.scrollable-menu1 {
+    height: auto;
+    max-height: 200px;
+    width: 280px;
+    overflow-x: hidden;
+}
+.a1 {
+	color: white;
+	display: inline-block;
+}
+</style>
+
+<div class="nav">
+{{if .Params.lang}}
+{{if .Params.pos}}
+    <a class="a1" href="{{.Site.BaseURL}}">Tiếng Việt</a>
+{{else}}
+    <a class="a1" href="{{.Site.BaseURL}}{{.Params.tranvi}}">Tiếng Việt</a>
+{{end}}
+  <div class="dropdown1">
+  <button class="dropbtn1">    Menu  &dArr;</button>
+  <div class="dropdown-content1">
+  <ul class="dropdown-menu1 scrollable-menu1" role="menu">
+    <a href="{{.Site.BaseURL}}/post/en/accountmanage/step44_phone_list/">Account Management</a>
+    <a href="{{.Site.BaseURL}}/post/en/accountmanage/accountlist/addaccount/step11_find_school/">Add Account</a>
+    <a href="{{.Site.BaseURL}}/post/en/step45_message/">Message</a>
+    <a href="{{.Site.BaseURL}}/post/en/step48_create_message/">Create Message</a>
+    <a href="{{.Site.BaseURL}}/post/en/step51_schedule/">Calendar</a>
+    <a href="{{.Site.BaseURL}}/post/en/step53_video_lecture/">Video Lecture</a>
+    <a href="{{.Site.BaseURL}}/post/en/step63_video_learning/">Video Learning</a>
+    <a href="{{.Site.BaseURL}}/post/en/step77_violent_register/">Violent Register</a>
+    <a href="{{.Site.BaseURL}}/post/en/message/step84_meal/">Meal</a>    
+    <a href="{{.Site.BaseURL}}/post/en/step85_school_info/">School Info</a>
+    <a href="{{.Site.BaseURL}}/post/en/step43_setting/">Setting</a>
+  </div>
+  </div>
+</div>
+{{else}}
+{{if .Params.pos}}
+    <a class="a1" href="{{.Site.BaseURL}}{{.Params.tranen}}">English</a>
+{{else}}
+    <a class="a1" href="{{.Site.BaseURL}}/post/en/begin-en/">English</a>
+{{end}}
+	<div class="dropdown1">
+  	<button class="dropbtn1">    Mục Lục  &dArr;</button>
+  	<div class="dropdown-content1">
+  	<ul class="dropdown-menu1 scrollable-menu1" role="menu">
+    <a href="{{.Site.BaseURL}}/post/vi/accountmanage/step44_phone_list/">Quản lí tài khoản</a>
+    <a href="{{.Site.BaseURL}}/post/vi/accountmanage/accountlist/addaccount/step11_find_school/">Thêm tài khoản</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step45_message/">Tin nhắn</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step48_create_message/">Tạo tin nhắn</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step51_schedule/">Thời khóa biểu</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step53_video_lecture/">Video bài giảng</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step63_video_learning/">Video bài học</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step77_violvit_register/">Sổ nề nếp</a>
+    <a href="{{.Site.BaseURL}}/post/vi/message/step84_meal/">Bữa ăn</a>    
+    <a href="{{.Site.BaseURL}}/post/vi/step85_school_info/">Thông tin trường</a>
+    <a href="{{.Site.BaseURL}}/post/vi/step43_setting/">Cài đặt</a>
+  </div>
+</div>
+{{end}}
+</div>

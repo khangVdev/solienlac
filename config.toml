@@ -1,0 +1,12 @@
+languageCode = "en-us"
+themesDir = "themes"
+publishDir = "docs"
+theme = "hugo-theme-shiori"
+baseUrl = "https://solienlac.bitbucket.io/guide"
+canonifyurls = true
+
+title = "SFlink"
+author = "Trí Đức"
+
+
+

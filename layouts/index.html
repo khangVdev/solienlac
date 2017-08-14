@@ -1,0 +1,16 @@
+{{ partial "layout_begin.html" . }}
+<div class="row"></div>
+  <div class="col-sm-6">
+  	<h1>
+  	Chào mừng tới SFLink.
+    </h1>
+    <p>Hãy nhấn vào màn hình!</p>
+  </div>
+  <div class="col-sm-6">
+    <img src="/img/Flash Screen.png" usemap="#main" width="281" height="500">
+    <map name="main">
+      <area shape="rect" coords="0,0,281,500" href="{{.Site.BaseURL}}/post/vi/step01_welcome_page/">
+    </map>
+  </div>
+</div>
+{{ partial "layout_end.html" . }}

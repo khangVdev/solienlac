@@ -1,0 +1,18 @@
+---
+title: "Thông tin học sinh"
+comment1 : "VÙNG THAO TÁC : - Nhập vào thông tin của bạn."
+comment2 : "VÙNG THAO TÁC : - Nhập vào thông tin học sinh. - NEXT : nhấn để chuyển đến bước kế tiếp. "				
+image1 : "/vi/accountmanage/accountlist/addaccount/selectrole/parent/Information_2_1.png"
+image2 : "/vi/accountmanage/accountlist/addaccount/selectrole/parent/Information_2_2.png"
+img_title1 : "Hình 01"
+img_title2 : "Hình 02"
+img2_coords1: "208,465,245,485"
+img2_link1 : "/post/vi/accountmanage/accountlist/addaccount/selectrole/parent/step38_sumary/"
+img2_coords2 : "61,426,75,445"
+img2_link2 : "/post/vi/accountmanage/accountlist/addaccount/selectrole/parent/step36_infomation_parent_1/"
+img1_coords2 : "29,35,0,15"
+img1_link2 : "/post/vi/accountmanage/accountlist/addaccount/selectrole/parent/selectclass/step34_2_1/"
+tranvi : "/post/vi/accountmanage/accountlist/addaccount/selectrole/parent/step37_infomation_parent_2/"
+tranen : "/post/en/accountmanage/accountlist/addaccount/selectrole/parent/step37_infomation_parent_2/"
+pos : "1"
+---
