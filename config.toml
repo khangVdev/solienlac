@@ -2,7 +2,7 @@ languageCode = "en-us"
 themesDir = "themes"
 publishDir = "docs"
 theme = "hugo-theme-shiori"
-baseUrl = "https://solienlac.bitbucket.io/guide"
+baseUrl = "https://solienlac.github.io/solienlac/"
 canonifyurls = true
 
 title = "SFlink"
